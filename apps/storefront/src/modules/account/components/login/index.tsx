@@ -19,10 +19,8 @@ const Login = ({ setCurrentView }: Props) => {
       className="max-w-sm w-full h-full flex flex-col justify-center gap-6 my-auto"
       data-testid="login-page"
     >
-      <Text className="text-4xl text-neutral-950 text-left">
-        Log in for faster
-        <br />
-        checkout.
+      <Text className="font-serif text-4xl small:text-5xl text-benzs-ink text-left leading-tight">
+        Log in for faster checkout.
       </Text>
       <form className="w-full" action={formAction}>
         <div className="flex flex-col w-full gap-y-2">

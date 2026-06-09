@@ -106,7 +106,7 @@ const Register = ({ setCurrentView, regions }: Props) => {
       className="max-w-sm flex flex-col items-start gap-2 my-8"
       data-testid="register-page"
     >
-      <Text className="text-4xl text-neutral-950 text-left mb-4">
+      <Text className="font-serif text-4xl small:text-5xl text-benzs-ink text-left mb-4 leading-tight">
         Create your
         <br />
         company account.
