@@ -9,13 +9,13 @@ const EmptyCartMessage = () => {
     >
       <Heading
         level="h1"
-        className="flex flex-row text-3xl-regular gap-x-2 items-baseline"
+        className="font-serif text-4xl small:text-5xl text-benzs-ink gap-x-2 items-baseline"
       >
-        Cart
+        Your cart is empty.
       </Heading>
-      <Text className="text-base-regular mt-4 mb-6 max-w-[32rem]">
-        You don&apos;t have anything in your cart. Let&apos;s change that, use
-        the link below to start browsing our products.
+      <Text className="text-base-regular text-benzs-ink/70 mt-4 mb-6 max-w-[32rem]">
+        Nothing here yet. Browse our full line of kosher fish and groceries to
+        get started.
       </Text>
       <div>
         <InteractiveLink href="/store">Explore products</InteractiveLink>

@@ -23,7 +23,7 @@ export default function CheckoutLayout({
           </LocalizedClientLink>
         </nav>
       </div>
-      <div className="relative bg-neutral-100" data-testid="checkout-container">
+      <div className="relative bg-benzs-cream" data-testid="checkout-container">
         {children}
       </div>
       <div className="py-4 w-full flex items-center justify-center">
