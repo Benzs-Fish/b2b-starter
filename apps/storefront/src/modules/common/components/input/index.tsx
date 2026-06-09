@@ -59,7 +59,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
             placeholder=" "
             required={required}
             className={clx(
-              "pt-4 pb-1 block w-full h-9 px-4 mt-0 bg-ui-bg-field rounded-full appearance-none focus:outline-none focus:ring-0 focus:shadow-borders-interactive-with-active shadow-borders-base hover:bg-ui-bg-field-hover",
+              "pt-4 pb-1 block w-full h-11 px-4 mt-0 bg-white border border-benzs-ink/15 rounded-lg appearance-none focus:outline-none focus:ring-1 focus:ring-benzs-navy focus:border-benzs-navy hover:border-benzs-ink/30 transition-colors",
               className
             )}
             {...props}
@@ -68,10 +68,10 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
           <label
             htmlFor={name}
             onClick={() => inputRef.current?.focus()}
-            className="flex items-center justify-center mx-3 px-1 transition-all absolute duration-300 top-2 -z-1 origin-0 text-neutral-400"
+            className="flex items-center justify-center mx-3 px-1 transition-all absolute duration-300 top-3 -z-1 origin-0 text-benzs-ink/40"
           >
             {label}
-            {required && <span className="text-rose-500">*</span>}
+            {required && <span className="text-benzs-red">*</span>}
           </label>
           {type === "password" && (
             <button
