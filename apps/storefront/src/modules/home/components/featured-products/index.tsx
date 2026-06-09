@@ -47,7 +47,7 @@ export default async function FeaturedProducts({
           </LocalizedClientLink>
         </div>
 
-        <ul className="grid grid-cols-2 small:grid-cols-4 gap-x-5 gap-y-10">
+        <ul className="grid grid-cols-1 xsmall:grid-cols-2 small:grid-cols-4 gap-x-5 gap-y-10">
           {products.map((product) => (
             <li key={product.id}>
               <ProductPreview product={product} region={region} isFeatured />
